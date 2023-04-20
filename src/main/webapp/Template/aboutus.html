@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Shubhu's Snacks</title>
+    <link rel="icon" type="image/png" href="../Assets/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html')
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#footer').load('footer.html')
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="services">
+        <div class="container">
+            <h1 class="text-center">About Us</h1>
+            
+            <div class="aboutde">
+                <p>
+                <h5 class="hset">Welcome JSPM'S RSCOE</h5>
+                </p>
+                <p class="pset">
+                    Rajarshi Shahu College of Engineering is one among the hallmark institutes of pune, established in 2001 with the aim of providing quality technical education and excellence in the ever expanding horizon of technical revolution of 21st century. The institute is becoming an icon in the field of engineering education in the state of Maharashtra. It is nurtured and managed by Jayawant Shikshan Prasarak Manadal Trust. The Institute is approved by the All India Council for Technical Education (AICTE), New Delhi and Govt. of Maharashtra affiliated to Savitribai Phule Pune University.
+The institute has 4 post graduate programs of engineering (ME-Computer, ME- VLSI and Embedded system, ME - Structures, ME – Design) and one each of MBA, MCA. RSCOE is a recognized “Ph.D. Research Center” for Mech, Civil and E&TC by SPPU. All under graduate programs have been accredited by National Board of Accreditation New Delhi, three times. RSCOE is also accredited by NAAC with “A” grade (CGPA 3.26). Recently UGC has accorded Autonomy to RSCOE which empower RSCOE to design contemporary curriculum, which is relevant to industry so as to maximize employability of graduates. The institute has received “Best Professional College award (Urban Category)” by SPPU, Pune. The institute is also listed in 2(f) and 12(b) category of UGC Act. Institute is winner of AICTE-CII award in Platinum Category for consecutive two years 2017-18, 2018-19. Govt of India, MHRD – NIRF has ranked RSCOE in band of top 201 to 250 colleges of India, in the year 2020. From academic year 2019-20 UGC has confirmed autonomous status to the college. RSCOE is ranked 103 at India Level by India Today, survey conducted by India Today – MDRA, 2020.
+                </p>
+                <p class="pset">Happy Education :)</p>
+            </div>
+            <div class="row">
+                <div class=" col-lg-4 col-md-8 col-sm-10 col-10 d-block m-auto reveal">
+                    <div class="card cards bg-light	" style="border: none;">
+                        <img id="i11" src="../Assets/about1.jpg">
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-8 col-sm-10 col-10 d-block m-auto reveal">
+                    <div class="card cards bg-light	" style="border: none;">
+                        <img id="i11" src="../Assets/about2.jpg">
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-8 col-sm-10 col-10 d-block m-auto reveal">
+                    <div class="card cards bg-light	" style="border: none;">
+                        <img id="i11" src="../Assets/about3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <form>
+                    <div class="row reveal">
+                        <div class="col-lg-10  col-md-10 col-sm-10 col-10 d-block m-auto">
+                            <h5 class="text-center hset">Suggestion box</h5>
+                            <p>Please Let us Know your Suggestion here </p>
+                        </div>
+                        <div class="col-lg-10  col-md-10 col-sm-10 col-10 d-block m-auto">
+                            <div class="form-group">
+                                <textarea name="suggest" id="suggest" rows="6" class="form-control"
+                                    placeholder="Write Something" required></textarea>
+
+                                <div class="form-group text-center">
+                                    <button type="submit" class="buttonsetting">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+
+    </section>
+    <script type="text/javascript">
+		window.addEventListener('scroll', reveal);
+		function reveal() {
+			var reveals = document.querySelectorAll('.reveal');
+			for (var i = 0; i < reveals.length; i++) {
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 20;
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else {
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+	</script>
+    
+	<script>
+		$(document).on('click',function(){
+			$('#collapsenavbar').collapse('hide');
+		});
+	</script>
+</body>
+
+</html>

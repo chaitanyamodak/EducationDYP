@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to JSPM'S RSCOE</title>
+    <link rel="icon" type="image/png" href="../Assets/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html')
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#footer').load('footer.html')
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="event">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class=" col-lg-7 col-md-10 col-sm-12 col-12 d-block m-auto ">
+                    <h2 class="text-center font-weight-bold">What is Avinya ?</h2>
+                    <p class="pset">
+                        AVINYA ~ derived from the Sanskrit language meaning 'Innovation' is the process of creating new ideas, products, or services that provide value to people and society.
+
+We are pleased to present to you a technical event aimed at bringing together experts, practitioners, enthusiasts, and novices in the field of computers to share knowledge, discuss innovations, and network with like-minded individuals.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-md-10 col-sm-12 col-12 d-block m-auto ">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img class="img-fluid" src="../Assets/logo.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-7 col-md-10 col-sm-10 col-10 d-block m-auto order-lg-2 reveal">
+                <h2 class="text-center font-weight-bold">CodeX</h2>
+                </h2>
+                <p class="pset" style="padding-bottom: 5px;">
+                    Do you want to win prizes with beginner-level CP skills? Here is your chance. CodeX'23 brings to you CodeX to bag prizes with rookie coding skills. Get ready to race against time and code your way up to the top!<ol type="1" class="pset">
+          
+                </p>
+            </div>
+            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto order-md-2 order-lg-1 reveal">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img class="img-fluid" src="../Assets/codex.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row ">
+
+            <div class="col-lg-7 col-md-10 col-sm-10 col-10 d-block m-auto reveal">
+                <h2 class="text-center font-weight-bold">RSCOE TECHNOTSAV 2023</h2>
+                </h2>
+                <p class="pset">
+                    Thank You very much for Booking your Seat at Techfest 2K23. We would be delighted with your sublime presence. So Experience this Wonderful Atmosphere on 24th and 25th of February. Grab your seats and get ready for the amazing Roller Coaster Ride of Techfest 2K23 with Joy and Delightment.
+                </p>
+            </div>
+            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto reveal">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img class="img-fluid" src="../Assets/tech.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-7 col-md-10 col-sm-12 col-10 d-block m-auto order-lg-2 reveal">
+                <h2 class="text-center font-weight-bold">Web + App Dev</h2>
+                </h2>
+                <p class="pset">
+                    Calling all talented developers! CodeRocks 2K23 is excited to announce a web/app development competition that will challenge your development & creative skills. From idea generation to deployment, this event will take you on a journey of developing a website or app that is not only visually appealing but also functionally efficient. We're looking for perspicacious developers who are passionate about coding and can bring their A-game to the competition to experience a hackathon-like environment.
+                </p>
+            </div>
+            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto order-md-2 order-lg-1 reveal">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img class="img-fluid" src="../Assets/webapp.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <div id="footer"></div>
+    
+    <script type="text/javascript">
+		window.addEventListener('scroll', reveal);
+		function reveal() {
+			var reveals = document.querySelectorAll('.reveal');
+			for (var i = 0; i < reveals.length; i++) {
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 20;
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else {
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+	</script>
+</body>
+
+</html>
